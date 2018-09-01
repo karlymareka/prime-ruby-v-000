@@ -1,4 +1,5 @@
 # Add  code here!
 def prime(integer)
-  case 
+  case integer
+  
 end 
