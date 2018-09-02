@@ -1,5 +1,5 @@
 # Add  code here!
-def prime(integer)
+def prime?(integer)
   if integer == 0 || integer == 1 
     return false
 =begin 
