@@ -15,3 +15,4 @@ def prime(integer)
   else
     true 
   end 
+end 
