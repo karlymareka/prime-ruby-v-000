@@ -7,7 +7,9 @@ def prime?(integer)
     return false 
   elsif known_primes.any?{|i| i == integer}
     return true 
- 
+  elsif known_primes.any?{|i| integer % i == 0}
+    return false 
+  else return true 
 
 
 
