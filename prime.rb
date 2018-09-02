@@ -5,6 +5,7 @@ def prime(integer)
   elsif integer == 2 || integer == 3 || integer == 5
     || integer == 7 || integer == 11 || integer == 13 
     || integer == 17 || integer == 19 || integer == 23
+    true 
   integer % 2 == 0 || integer % 3 == 0 ||
     integer % 5 == 0 || integer % 7 == 0 ||
     integer % 11 == 0 || integer % 
