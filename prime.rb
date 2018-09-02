@@ -1,12 +1,10 @@
 # Add  code here!
 def prime?(integer)
+  known_primes = [2, 3, 5, 7, 11, 13, 17, 19, 23]
   if integer == 0 || integer == 1 
     return false
 
-  elsif integer == 2 || integer == 3 || integer == 5
-    || integer == 7 || integer == 11 || integer == 13 
-    || integer == 17 || integer == 19 || integer == 23
-      return true
+
 
 =begin
   elsif integer % 2 == 0 || integer % 3 == 0 ||
