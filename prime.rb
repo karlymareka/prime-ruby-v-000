@@ -10,6 +10,8 @@ def prime?(integer)
   elsif known_primes.any?{|i| integer % i == 0}
     return false 
   else return true 
+  end 
+end 
 
 
 
