@@ -12,3 +12,4 @@ def prime(integer)
     || integer % 17 == 0 || integer % 19 == 0 ||
     integer % 23 == 0 
     false 
+  else true 
