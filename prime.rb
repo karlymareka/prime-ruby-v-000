@@ -5,7 +5,7 @@ def prime?(integer)
     return false
   elsif integer < 0 
     return false 
-  elsif 
+  elsif known_primes 
 
 
 
