@@ -5,7 +5,9 @@ def prime?(integer)
     return false
   elsif integer < 0 
     return false 
-  elsif known_primes 
+  elsif known_primes.any?{|i| i == integer}
+    return true 
+ 
 
 
 
